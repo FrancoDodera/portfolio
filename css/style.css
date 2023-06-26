@@ -519,16 +519,21 @@ h3.my-profession {
   text-align: center;
   transition: all 0.3s ease;
 }
+.service .service-item .service-item-inner .icon .fa-brands,
 .service .service-item .service-item-inner .icon .fa {
-  font-size: 40px;
+  font-size: 60px;
   line-height: 60px;
   color: var(--skin-color);
 }
 .service .service-item .service-item-inner:hover .icon {
   background: var(--skin-color);
 }
+.service .service-item .service-item-inner:hover .icon .fa-brands {
+  font-size: 45px;
+  color: white;
+}
 .service .service-item .service-item-inner:hover .icon .fa {
-  font-size: 25px;
+  font-size: 45px;
   color: white;
 }
 .service .service-item .service-item-inner h4 {
