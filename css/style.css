@@ -511,19 +511,18 @@ h3.my-profession {
   box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
 }
 .service .service-item .service-item-inner .icon img {
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
   display: block;
   text-align: center;
   align-items: center;
   justify-content: center;
   margin: 0 auto 30px;
-  margin-right: 100px;
 }
 
 .service .service-item .service-item-inner .icon {
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
   border-radius: 50%;
   display: block;
   margin: 0 auto 30px;
