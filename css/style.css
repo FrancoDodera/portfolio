@@ -510,44 +510,34 @@ h3.my-profession {
 .service .service-item .service-item-inner:hover {
   box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
 }
+.service .service-item .service-item-inner .icon img {
+  height: 100px;
+  width: 100px;
+  display: block;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 30px;
+  margin-right: 100px;
+}
+
 .service .service-item .service-item-inner .icon {
-  height: 60px;
-  width: 60px;
+  height: 100px;
+  width: 100px;
   border-radius: 50%;
   display: block;
   margin: 0 auto 30px;
   text-align: center;
+  align-items: center;
   transition: all 0.3s ease;
 }
-.service .service-item .service-item-inner .icon .fa-brands,
-.service .service-item .service-item-inner .icon .fa {
-  font-size: 60px;
-  line-height: 60px;
-  color: var(--skin-color);
-}
-.service .service-item .service-item-inner:hover .icon {
-  background: var(--skin-color);
-}
-.service .service-item .service-item-inner:hover .icon .fa-brands {
-  font-size: 45px;
-  color: white;
-}
-.service .service-item .service-item-inner:hover .icon .fa {
-  font-size: 45px;
-  color: white;
-}
+
 .service .service-item .service-item-inner h4 {
   font-size: 18px;
   margin-bottom: 15px;
   color: var(--text-black-900);
   font-weight: 700;
   text-transform: capitalize;
-}
-
-.service .service-item .service-item-inner p {
-  font-size: 16px;
-  color: var(--text-black-700);
-  line-height: 25px;
 }
 
 /*Portfolio*/
