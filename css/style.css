@@ -7,6 +7,9 @@
   --text-black-900: #302e4d;
   --text-black-700: #504e70;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 body.dark {
   --bg-black-900: #151515;
